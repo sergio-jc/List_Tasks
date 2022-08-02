@@ -35,6 +35,7 @@ export const taskSlice = createSlice({
       if (taskFound) {
         state.splice(state.indexOf(taskFound), 1);
       }
+      // state = [...state , variable]
     },
   },
 });
